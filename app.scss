@@ -1,0 +1,25 @@
+  
+  $diswidth: 450px;
+  $disheight: 100%;
+  
+body{
+   background-color: #002; 
+}
+
+textarea {
+  margin: 10px 0 0 20px;
+  border-radius: 5%;
+  padding: 3%;
+   width: $diswidth;
+   height: 500px;
+}
+
+.disp {
+     background-color: #999;
+     border-radius:5%;
+     padding: 1%;
+     float: left;
+     margin: 10px 0 0 -35px;
+     width: $diswidth;
+     height: $disheight;
+}
